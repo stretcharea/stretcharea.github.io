@@ -1,0 +1,128 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Интересное</title>	
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body> <!-- Основная часть документа -->
+    <header class="header header__fixed" id="header">
+    	<div class="container">	
+    		<nav class="nav" id="nav">
+    			<a class="nav__link" href="directions.html">Направления</a>
+    			<a class="nav__link" href="courses.html">Онлайн-курсы</a>
+    			<a href="index.html"><img class="logo nav__link" src="img/logo.png" alt="logo"></a>
+    			<a class="nav__link" href="index.html#contact">Контакты</a>
+    			<a class="nav__link active" href="blog.html">Интересное</a>
+    		</nav>
+            <a href="index.html"><img class="logo__mini" src="img/logo.png" alt="logo"></a>
+            <div class="nav-toggle" id="nav_toggle">
+                <span class="nav-toggle__item"></span>
+            </div>
+    	</div>
+    </header>
+
+    <div class="bintro">
+        <div class="container">
+            <div class="dintro__inner">
+                <h1 class="section__title">Интересное</h1>
+                <p class="section__text">Здесь собраны различные статьи по растяжке, комплексы упражнений, о питании и здоровье. <br> (Для более удобного поиска, все статьи сгруппированы по разделам) </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="title__nav">
+                <a class="title__nav-link" href="#" data-filter="all">Все</a>
+                <a class="title__nav-link" href="#" data-filter="exercise">Упражнения</a>
+                <a class="title__nav-link" href="#" data-filter="health">Здоровье</a>
+                <a class="title__nav-link" href="#" data-filter="food">Питание</a>
+            </div>
+            
+            <div class="rectangle__title" data-cat="exercise">
+                <div class="header__title">
+                    <p>#упражнения</p>
+                    <p>1.04.2021</p>
+                </div>
+                <div class="img__title">
+                    <img class="blogimg" src="img/title3.jpg" alt="img1">
+                </div>
+                <div class="blog__item">
+                    <h2 class="section__title blog__title">ТЕХНИКА ВЫПОЛНЕНИЯ ШПАГАТА И БАЗОВЫХ УПРАЖНЕНИЙ</h2>
+                    <div class="section__text">
+                        <p>Разбор базовых упражнений на растяжку...</p>
+                    </div>
+                </div>
+                <div class="directions__btn">
+                    <a class="btn2" href="title3.html">Читать</a>
+                </div>
+            </div>
+            
+            <div class="rectangle__title" data-cat="food">
+                <div class="header__title">
+                    <p>#питание</p>
+                    <p>31.03.2021</p>
+                </div>
+                <div class="img__title">
+                    <img class="blogimg" src="img/title1.jpg" alt="img2">
+                </div>
+                <div class="blog__item">
+                    <h2 class="section__title blog__title">Интервальное голодание</h2>
+                    <div class="section__text">
+                        <p>Интервальное голодание - тип питания, при котором определенное время нужно не есть совсем...</p>
+                    </div>
+                </div>
+                <div class="directions__btn">
+                    <a class="btn2" href="title1.html">Читать</a>
+                </div>
+            </div>
+
+            <div class="rectangle__title" data-cat="health">
+                <div class="header__title">
+                    <p>#здоровье</p>
+                    <p>25.03.2021</p>
+                </div>
+                <div class="img__title">
+                    <img class="blogimg" src="img/title2.jpg" alt="img3">
+                </div>
+                <div class="blog__item">
+                    <h2 class="section__title blog__title">Дыхание во время растяжки</h2>
+                    <div class="section__text">
+                        <p>Правильное дыхание - залог хороших шпагатов и гибкого тела...</p>
+                    </div>
+                </div>
+                <div class="directions__btn">
+                    <a class="btn2" href="title2.html">Читать</a>
+                </div>
+            </div>     
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item">  
+                    <p> &copy; 2021 Все права защищены </p>
+                </div>
+                <div class="footer__item">  
+                    <a href="index.html"><img class="logomin" src="img/logomin.jpg" alt="logo"></a>
+                </div>
+                <div class="footer__item">
+                    <p><a class="text__link" href="#">Политика конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
